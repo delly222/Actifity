@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:text="New Day"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/text6"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/style"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:hint="E-mail Address"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/text7"
+        android:layout_width="261dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/style"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="258dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="279dp"
+        android:layout_height="53dp"
+        android:layout_centerVertical="true"
+        android:background="#000080"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="329dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="Don't have any account ?  Create it!"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
